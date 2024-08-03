@@ -1,14 +1,13 @@
-﻿import Image from "next/image";
-import { Suspense } from "react";
+﻿import Image from 'next/image';
+import { Suspense } from 'react';
 
-import { FiltersContainer } from "@/app/(overview-page)/components/filters-container";
-import { PricesContainer } from "@/app/(overview-page)/components/prices-container";
+import { FiltersContainer } from '@/app/(overview-page)/components/filters-container';
+import { PricesContainer } from '@/app/(overview-page)/components/prices-container';
 
 /**
  * Renders the overview page component.
  *
  * This component displays the main content of the overview page, including filters and prices.
- * It is designed to be easily utilized by developers who may not be familiar with React.
  *
  * @returns The rendered overview page component.
  */
